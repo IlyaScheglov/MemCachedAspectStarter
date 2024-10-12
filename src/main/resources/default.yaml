@@ -1,0 +1,5 @@
+spring:
+  memcached:
+    host: localhost
+    port: 11211
+    ttl-seconds: 300
