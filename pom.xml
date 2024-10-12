@@ -26,6 +26,15 @@
 		<memcached.version>2.12.3</memcached.version>
 		<jackson.version>2.18.0</jackson.version>
 	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>Github IlyaScheglov Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/IlyaScheglov/MemCachedAspectStarter</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
